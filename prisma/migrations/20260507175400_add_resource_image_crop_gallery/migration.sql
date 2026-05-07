@@ -1,0 +1,2 @@
+ALTER TABLE "Resource" ADD COLUMN "coverCropY" INTEGER NOT NULL DEFAULT 50;
+ALTER TABLE "Resource" ADD COLUMN "showcaseImages" JSONB;
