@@ -1,0 +1,216 @@
+{
+  "i18n": {
+    "zh": {
+      "languageName": "中文",
+      "roleFilter": "角色筛选：",
+      "sortLabel": "排序方式：",
+      "resourceTotalPrefix": "共",
+      "resourceTotalSuffix": "个资源",
+      "filterSummary": "筛选摘要",
+      "currentFilters": "当前筛选条件",
+      "emptyFilters": "未选择筛选条件",
+      "clearFilters": "清空筛选",
+      "tagsTitle": "标签",
+      "statsTitle": "资源统计",
+      "stats": {
+        "total": "总资源数",
+        "authors": "作者总数",
+        "month": "本月更新",
+        "downloads": "累计下载"
+      },
+      "author": "作者",
+      "version": "版本",
+      "size": "大小",
+      "updated": "更新",
+      "prev": "‹ 上一页",
+      "next": "下一页 ›"
+    },
+    "en": {
+      "languageName": "English",
+      "roleFilter": "Role Filter:",
+      "sortLabel": "Sort:",
+      "resourceTotalPrefix": "",
+      "resourceTotalSuffix": "resources",
+      "filterSummary": "Filter Summary",
+      "currentFilters": "Current Filters",
+      "emptyFilters": "No filters selected",
+      "clearFilters": "Clear Filters",
+      "tagsTitle": "Tags",
+      "statsTitle": "Resource Stats",
+      "stats": {
+        "total": "Total Resources",
+        "authors": "Authors",
+        "month": "Updated This Month",
+        "downloads": "Total Downloads"
+      },
+      "author": "Author",
+      "version": "Version",
+      "size": "Size",
+      "updated": "Updated",
+      "prev": "‹ Previous",
+      "next": "Next ›"
+    }
+  },
+  "roles": [
+    { "id": "all", "zh": "全部", "en": "All" },
+    { "id": "warrior", "zh": "战士", "en": "Warrior" },
+    { "id": "hunter", "zh": "猎宝", "en": "Hunter" },
+    { "id": "regent", "zh": "储君", "en": "Regent" },
+    { "id": "bone", "zh": "骨妹", "en": "Bone Girl" },
+    { "id": "chicken", "zh": "鸡煲", "en": "Chicken Pot" },
+    { "id": "watcher", "zh": "观者", "en": "Watcher" },
+    { "id": "other", "zh": "其他", "en": "Other" }
+  ],
+  "tags": [
+    { "id": "common", "zh": "普通", "en": "Common" },
+    { "id": "rare", "zh": "稀有", "en": "Rare" },
+    { "id": "legendary", "zh": "传说", "en": "Legendary" },
+    { "id": "ai-anime", "zh": "ai 动漫", "en": "AI Anime" },
+    { "id": "character", "zh": "角色", "en": "Character" },
+    { "id": "colorless", "zh": "无色", "en": "Colorless" }
+  ],
+  "sortOptions": [
+    { "id": "hot", "zh": "按热门排序", "en": "Sort by Popularity" },
+    { "id": "updated", "zh": "按更新时间排序", "en": "Sort by Updated Date" },
+    { "id": "downloads", "zh": "按下载量排序", "en": "Sort by Downloads" }
+  ],
+  "summary": {
+    "totalResources": 186
+  },
+  "stats": [
+    { "label": "总资源数", "value": "186" },
+    { "label": "作者总数", "value": "57" },
+    { "label": "本月更新", "value": "18" },
+    { "label": "累计下载", "value": "128,946" }
+  ],
+  "resources": [
+    {
+      "badge": "热门",
+      "title": { "zh": "千端流光 卡面包", "en": "Thousand Streams Card Pack" },
+      "author": "NightHawk",
+      "role": "warrior",
+      "rarity": "legendary",
+      "version": "v2.3.4",
+      "size": "12.3MB",
+      "date": "2025-05-26",
+      "downloads": 0,
+      "hotScore": 96,
+      "tags": ["唯美", "东方风", "高清", "legendary", "character"],
+      "tagLabels": [
+        { "zh": "唯美", "en": "Elegant" },
+        { "zh": "东方风", "en": "Eastern" },
+        { "zh": "高清", "en": "HD" },
+        { "zh": "传说", "en": "Legendary" },
+        { "zh": "角色", "en": "Character" }
+      ],
+      "tone": "from-rose-200 via-pink-100 to-sky-200"
+    },
+    {
+      "badge": "推荐",
+      "title": { "zh": "暗金戍章 典藏版", "en": "Darkgold Insignia Collector Edition" },
+      "author": "Wistaria",
+      "role": "bone",
+      "rarity": "rare",
+      "version": "v2.3.2",
+      "size": "17.6MB",
+      "date": "2025-05-21",
+      "downloads": 0,
+      "hotScore": 91,
+      "tags": ["暗黑", "HD", "Particles", "rare", "character"],
+      "tagLabels": [
+        { "zh": "暗黑", "en": "Dark" },
+        { "zh": "HD", "en": "HD" },
+        { "zh": "Particles", "en": "Particles" },
+        { "zh": "稀有", "en": "Rare" },
+        { "zh": "角色", "en": "Character" }
+      ],
+      "tone": "from-slate-950 via-zinc-800 to-stone-400"
+    },
+    {
+      "badge": "新",
+      "title": { "zh": "苍穹映雪 卡面集", "en": "Sky Snowfall Card Set" },
+      "author": "星语",
+      "role": "watcher",
+      "rarity": "common",
+      "version": "v2.3.4",
+      "size": "10.7MB",
+      "date": "2025-05-24",
+      "downloads": 0,
+      "hotScore": 84,
+      "tags": ["国风", "水墨", "简约", "common"],
+      "tagLabels": [
+        { "zh": "国风", "en": "Chinese" },
+        { "zh": "水墨", "en": "Ink" },
+        { "zh": "简约", "en": "Minimal" },
+        { "zh": "普通", "en": "Common" }
+      ],
+      "tone": "from-sky-100 via-blue-50 to-slate-300"
+    },
+    {
+      "badge": "推荐",
+      "title": { "zh": "星界共鸣 卡面集", "en": "Astral Resonance Card Set" },
+      "author": "VoidEcho",
+      "role": "regent",
+      "rarity": "legendary",
+      "version": "v2.3.6",
+      "size": "11.8MB",
+      "date": "2025-05-17",
+      "downloads": 0,
+      "hotScore": 88,
+      "tags": ["科幻", "粒子", "动态", "ai-anime", "legendary"],
+      "tagLabels": [
+        { "zh": "科幻", "en": "Sci-Fi" },
+        { "zh": "粒子", "en": "Particles" },
+        { "zh": "动态", "en": "Animated" },
+        { "zh": "ai 动漫", "en": "AI Anime" },
+        { "zh": "传说", "en": "Legendary" }
+      ],
+      "tone": "from-slate-950 via-indigo-800 to-cyan-400"
+    },
+    {
+      "badge": "热门",
+      "title": { "zh": "赤枫寻迹 卡面包", "en": "Red Maple Trail Card Pack" },
+      "author": "MapleW",
+      "role": "hunter",
+      "rarity": "rare",
+      "version": "v2.3.1",
+      "size": "14.2MB",
+      "date": "2025-05-14",
+      "downloads": 0,
+      "hotScore": 80,
+      "tags": ["国风", "枫叶", "古风", "rare"],
+      "tagLabels": [
+        { "zh": "国风", "en": "Chinese" },
+        { "zh": "枫叶", "en": "Maple" },
+        { "zh": "古风", "en": "Classic" },
+        { "zh": "稀有", "en": "Rare" }
+      ],
+      "tone": "from-orange-200 via-amber-300 to-stone-700"
+    },
+    {
+      "badge": "新",
+      "title": { "zh": "光曜圣域 卡面包", "en": "Radiant Sanctuary Card Pack" },
+      "author": "Lumos",
+      "role": "other",
+      "rarity": "common",
+      "version": "v2.3.0",
+      "size": "13.5MB",
+      "date": "2025-05-10",
+      "downloads": 0,
+      "hotScore": 72,
+      "tags": ["高清", "圣光", "唯美", "common", "colorless"],
+      "tagLabels": [
+        { "zh": "高清", "en": "HD" },
+        { "zh": "圣光", "en": "Radiant" },
+        { "zh": "唯美", "en": "Elegant" },
+        { "zh": "普通", "en": "Common" },
+        { "zh": "无色", "en": "Colorless" }
+      ],
+      "tone": "from-amber-50 via-stone-100 to-yellow-200"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "pages": [1, 2, 3, 4, 5, 16]
+  }
+}
