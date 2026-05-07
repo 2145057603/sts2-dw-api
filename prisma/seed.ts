@@ -1,7 +1,7 @@
 import "dotenv/config";
 import { PrismaClient } from "@prisma/client";
 import { hash } from "argon2";
-import modData from "../../src/data/modResources.json" with { type: "json" };
+import modData from "../src/data/modResources.json" with { type: "json" };
 
 const prisma = new PrismaClient();
 
